@@ -1,0 +1,15 @@
+thisdict =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+txt=""
+
+for x in thisdict:
+
+    txt+=x+str(thisdict[x])
+    
+print(txt)
+    
+    
+        
